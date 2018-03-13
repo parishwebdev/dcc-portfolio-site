@@ -1,0 +1,309 @@
+/**
+Colors:
+#0064FF - Blue  (Primary)
+
+#FF9B00 - Yellow (Complementary)
+**/
+
+
+body{
+  font-family: Tahoma, Geneva, sans-serif;
+    background-image: url("https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+.outerContainer{
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  padding-top: 1.5rem;
+
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: #000D20;
+}
+h4 {
+  font-family: "Courier New", Courier, monospace;
+  color: #000D20;
+}
+.resumeSubHeadings {
+ font-family: "Courier New", Courier, monospace;
+ color: #000D20;
+ font-size: 1.85rem;
+}
+
+.skillsIconDiv [class*=" devicon-"], [class^=devicon-]{
+  font-size: 400%;
+  margin-bottom: 0.75rem;
+  margin-right: 0.95rem;
+  color: #003F9F !important;
+}
+
+
+/* Nav */
+.navbarParish {
+  background-color: #0064FF;
+  color: #ff9B00;
+}
+
+.navbarParish a {
+  color: #FFF3DF;
+}
+.navbarParish a:hover {
+  color: #FFC160;
+  background-color: #004BBF;
+}
+.navbar-brand:hover {
+    background-color: #0064FF !important;
+}
+.navbar-toggler{
+  color: white;
+}
+.navbar-toggler:hover{
+  color: #FFC160;
+  border: 1px solid #FFC160;
+}
+/*Buttons*/
+.mp-outline-yellow {
+  background-color: white;
+  border: 1px solid #ff9b00;
+  color: #ff9b00;
+}
+.mp-outline-yellow:hover{
+  background-color: #FFC160;
+  border: 1px solid white;
+  color: white;
+}
+.mp-outline-yellow-thick {
+  background-color: white;
+  border: 1.50px solid #ff9b00;
+  font-weight: 600;
+  color: #ff9b00;
+}
+.mp-outline-yellow-thick:hover{
+  background-color: #FFC160;
+  border: 1.50px solid #FFC160;
+  color: white;
+}
+
+.mp-solid-blue {
+  background-color: #0064FF;
+  color: white;
+}
+.mp-solid-blue:hover {
+  background-color: white;
+  color: #004BBF;
+  border: 1px solid #004BBF;
+}
+.ctaBtn {
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  padding-right: 6.5%;
+  padding-left: 6.5%;
+  border-radius: 36px;
+}
+
+/*Font Awesome*/
+#navbarNav .fas {
+  margin-left: 3.25px;
+}
+
+#resumeH4 .fas {
+  line-height: 1.5;
+}
+
+/*
+Bootstrap Profile Css for cards;
+*/
+.card {
+    font-size: 1em;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    /*border-radius: .28571429rem;*/
+    border-radius: 1.125rem;
+    /*box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;*/
+    -webkit-box-shadow: 3px 3px 11px 1.75px #000;
+    -moz-box-shadow:    3px 3px 11px 1.75px #000;
+     box-shadow:         3px 3px 11px 1.75px #000;
+}
+.card-block {
+    font-size: 1em;
+    position: relative;
+    margin: 0;
+    padding: 1.75rem;
+    border: none;
+    border-top: 1px solid rgba(34, 36, 38, .1);
+    box-shadow: none;
+}
+
+.card-img-top {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 210px;
+    -webkit-filter: grayscale(100%) brightness(30%) sepia(100%) hue-rotate(-180deg) saturate(700%) contrast(0.8);
+    filter: grayscale(100%) brightness(30%) sepia(100%) hue-rotate(-180deg) saturate(700%) contrast(0.8);
+
+}
+.card-inner {
+    clear: both;
+}
+.card-footer{
+  background-color: #0064FF;
+}
+.card-footer .fab, .card-footer .fas  {
+  color: white;
+}
+.card-footer .fab:hover, .card-footer .fas:hover  {
+  color: #FFC160;
+}
+
+.pCard {
+    -webkit-box-shadow: 3px 3px 9px 1.75px #ccc;
+    -moz-box-shadow:    3px 3px 9px 1.75px #ccc;
+     box-shadow:         3px 3px 9px 1.75px #ccc;
+     border-radius: .85rem;
+}
+.pCardFooter {
+  color: white;
+}
+.pCardFooter .fab, .pCardFooter .fas  {
+  color: white;
+}
+.pCardFooter .fab:hover, .pCardFooter .fas:hover  {
+  color: #FFF3DF;
+}
+.pCardFooter span{
+box-shadow: 0 0 10px #000;
+padding-right:0.30rem;
+padding-left:0.30rem;
+padding-top: 0.15rem;
+padding-bottom: 0.15rem;
+}
+.pCardHeader {
+  color: white;
+}
+#homeCardText {
+ max-width: 80.5%;
+}
+#homeBigImg{
+  max-height: 22rem;
+  float: right;
+}
+.profile {
+    position: absolute;
+    top: -15px;
+    left: 48.95%;
+    display: inline-block;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 36px;
+    height: 36px;
+    margin: 0;
+
+    border-radius: 50%;
+    zoom: 125%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-avatar {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+
+}
+.profile a:hover{
+  background-color: transparent;
+}
+
+/* Pulse Animation for profile circle */
+@-webkit-keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  75% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+}
+
+@keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  75% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+}
+
+.pulse {
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.pulse:hover {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+/* */
+
+.text-bold {
+    font-weight: 700;
+}
+.bg-pBlue {
+  background-color: #003F9F;
+  color: white;
+}
+
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #E6E6E6;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+.badge-Blue{
+  color: #fff;
+  background-color: #0064FF;
+  padding: 5.5px;
+}
+
+.list-group-item>.badge {
+    float: right;
+}
+
+
+
+@media (max-width: 576px){
+  #homeBigImg{
+    float: left;
+  }
+}
